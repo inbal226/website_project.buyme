@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "website-project"
+version = "0.1.0"
+description = ""
+authors = ["inbal226 <inbalbala226@walla.com>"]
+readme = "README.md"
+packages = [{include = "website_project"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+selenium = "^4.8.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -19,7 +19,7 @@ class Test_login_Buy_me(unittest.TestCase):
         self.sender_and_receiver_page = Sender_and_receiver_screen(base.driver)
 
     def test_register(self):
-        # base.link_to_url(driver, base.datajson['url']['buymehome'])
+        # base.link_to_url(driver, base.datajson['url']['buyme'])
         self.intro_page.register()
     @classmethod
     def tearDownClass(self):
@@ -34,7 +34,7 @@ class Test_gift_card(unittest.TestCase):
 
 
     def choose_a_gift(self):
-        #base.link_to_url(driver, base.datajson['url']['buymehome'])
+        #base.link_to_url(driver, base.datajson['url']['buyme'])
         self.gift_page.choose_a_gift_card()
 
     @classmethod
@@ -50,7 +50,7 @@ class Test_send_gift(unittest.TestCase):
         self.sender_and_receiver_page = Sender_and_receiver_screen(base.driver)
 
     def send_gift(self):
-        #base.link_to_url(driver, base.datajson['url']['buymehome'])
+        #base.link_to_url(driver, base.datajson['url']['buyme'])
         self.sender_and_receiver_page.send_the_gift()
 
     @classmethod
